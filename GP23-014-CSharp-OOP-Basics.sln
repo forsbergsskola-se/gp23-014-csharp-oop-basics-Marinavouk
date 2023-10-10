@@ -8,6 +8,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P2_1PlayerGold", "P2_1Playe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P2_2ItemValues", "P2_2ItemValues\P2_2ItemValues.csproj", "{5BE494F3-5971-4E6E-8451-B24107B6210A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P2Fields", "P2Fields\P2Fields.csproj", "{C8E9CC2E-424E-46DF-AD9A-CFA6D8F2F14A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{5BE494F3-5971-4E6E-8451-B24107B6210A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5BE494F3-5971-4E6E-8451-B24107B6210A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5BE494F3-5971-4E6E-8451-B24107B6210A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8E9CC2E-424E-46DF-AD9A-CFA6D8F2F14A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8E9CC2E-424E-46DF-AD9A-CFA6D8F2F14A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8E9CC2E-424E-46DF-AD9A-CFA6D8F2F14A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8E9CC2E-424E-46DF-AD9A-CFA6D8F2F14A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
