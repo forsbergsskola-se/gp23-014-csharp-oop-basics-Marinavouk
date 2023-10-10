@@ -1,6 +1,5 @@
 ﻿
 
-using System.ComponentModel.Design;
 using P2Fields;
 
 AllPlayerInfo player = new AllPlayerInfo();
