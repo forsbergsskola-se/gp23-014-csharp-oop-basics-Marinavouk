@@ -1,8 +1,8 @@
-﻿namespace P3_2People;
+﻿
 
 public class Person
 {
-    public string? name;
+    public string name;
 
     public void Greeting()
     {

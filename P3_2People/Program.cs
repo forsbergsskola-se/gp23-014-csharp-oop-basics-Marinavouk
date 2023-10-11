@@ -1,7 +1,7 @@
 ﻿
 
 
-using P3_2People;
+
 
 Person[] people = new Person[3];
 
