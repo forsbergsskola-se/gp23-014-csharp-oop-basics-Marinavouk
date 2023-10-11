@@ -5,25 +5,26 @@ public class Plant
 {
    public bool isGrown ;
    
-   public void PrintStatus(bool plant)
+   public void PrintStatus()
    {
       {
-         Console.WriteLine(isGrown == true ? "Plant is a seed." : "Plant is a tree.");
+         Console.WriteLine(isGrown == true ? "Plant is a tree." : "Plant is a seed.");
       }
     
    }
 
-   public void Grow(bool plant)
+   public void Grow()
    {
       {
        
          if (isGrown == true)
          {
-            Console.WriteLine("Plant is growing.");
+            Console.WriteLine("Plant has already grown.");
          }
          else
          {
-            Console.WriteLine("Plant has already grown.");
+            Console.WriteLine("Plant is growing.");
+            this.isGrown = true; //we change the status to true
          }
          
       }
