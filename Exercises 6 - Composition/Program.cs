@@ -1,3 +1,8 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿
 
-Console.WriteLine("Hello, World!");
+Knight defender = new Knight();
+Knight attacker = new Knight();
+
+defender.Shield = new Shield();
+
+attacker.Sword = new Sword();
