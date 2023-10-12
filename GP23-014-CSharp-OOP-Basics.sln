@@ -28,6 +28,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P5_1Father", "P5_1Father\P5
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P5_2Harvest", "P5_2Harvest\P5_2Harvest.csproj", "{3F7BF09B-71E7-45A0-B035-19D6B210911C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P6_1WellHelloThere", "P6_1WellHelloThere\P6_1WellHelloThere.csproj", "{E25470EC-5659-4D0D-8153-C238DB069BFB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -90,5 +92,9 @@ Global
 		{3F7BF09B-71E7-45A0-B035-19D6B210911C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3F7BF09B-71E7-45A0-B035-19D6B210911C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3F7BF09B-71E7-45A0-B035-19D6B210911C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E25470EC-5659-4D0D-8153-C238DB069BFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E25470EC-5659-4D0D-8153-C238DB069BFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E25470EC-5659-4D0D-8153-C238DB069BFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E25470EC-5659-4D0D-8153-C238DB069BFB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
