@@ -30,6 +30,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P5_2Harvest", "P5_2Harvest\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P6_1WellHelloThere", "P6_1WellHelloThere\P6_1WellHelloThere.csproj", "{E25470EC-5659-4D0D-8153-C238DB069BFB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercises 6 - Composition", "Exercises 6 - Composition\Exercises 6 - Composition.csproj", "{79653366-0205-4D8E-A1BD-B5604766B63F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -96,5 +98,9 @@ Global
 		{E25470EC-5659-4D0D-8153-C238DB069BFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E25470EC-5659-4D0D-8153-C238DB069BFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E25470EC-5659-4D0D-8153-C238DB069BFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79653366-0205-4D8E-A1BD-B5604766B63F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79653366-0205-4D8E-A1BD-B5604766B63F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79653366-0205-4D8E-A1BD-B5604766B63F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79653366-0205-4D8E-A1BD-B5604766B63F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
