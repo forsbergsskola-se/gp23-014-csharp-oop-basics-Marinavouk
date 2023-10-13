@@ -3,6 +3,7 @@
 public class Person
 {
     public Pizza Meal;
+    public string name;
 
     public void Eat()
     {
