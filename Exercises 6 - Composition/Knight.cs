@@ -10,8 +10,16 @@ class Knight
     {
         if (Shield != null)
         {
-            Console.WriteLine("Knights Shield fends off the strike.");
-            Shield = null;
+            if (sword != null)
+            {
+                Console.WriteLine("Knights Shield was pierced by the Sword.");
+                Shield = null;
+            }
+            else
+            {
+                Console.WriteLine("Knights Shield fends off the strike.");
+            }
+            
         }
         else
         {
@@ -19,21 +27,21 @@ class Knight
         }
     }
 
-    public void Attack(Knight shield)
+    public void Attack(Knight defender)
     {
-        if (Sword == null)
+        if (Sword!= null)
         {
            
-           Console.WriteLine("Knight attacks Knight with a Sword.");
-            shield.GetHit(Sword);
-            if (Shield != null) 
-                Console.WriteLine("Knights Shield was pierced by the Sword.");
+            Console.WriteLine("Knight attacks Knight with a Sword.");
+            defender.GetHit(Sword);   
         }
         else
         {
-            Console.WriteLine("Knight attacks with Bare Hands.");
-            shield.GetHit(null);
-        }   
+             Console.WriteLine("Knight attacks Knight with Bare Hands."); 
+            defender.GetHit(null);
+             
+        }
+       
     }
 }
 
