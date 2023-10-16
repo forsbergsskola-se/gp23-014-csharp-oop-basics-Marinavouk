@@ -4,9 +4,6 @@
 
 public class Pizza
 {
-    public int Slices;
-    public Pizza(int slices)
-    {
-        Slices = slices;
-    }
+    public int Slices = 7;
+   
 }
